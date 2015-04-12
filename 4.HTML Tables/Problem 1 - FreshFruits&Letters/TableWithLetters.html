@@ -7,16 +7,17 @@
             width: 30px;
         }
 
-            table td[id=center] {
+            table td[class=center] {
                 text-align: center;
             }
 
-            table td[id=right] {
+            table td[class=right] {
                 text-align: right;
             }
-            table td[id=rightDown]{
-                text-align:right;
-                vertical-align:bottom;
+
+            table td[class=rightDown] {
+                text-align: right;
+                vertical-align: bottom;
             }
     </style>
 </head>
@@ -24,29 +25,29 @@
     <table border="1">
         <tr>
             <td colspan="3">Title goes here</td>
-            <td id="center">A</td>
-            <td id="right">B</td>
+            <td class="center">A</td>
+            <td class="right">B</td>
         </tr>
         <tr>
             <td rowspan="3">C</td>
-            <td id="center">D</td>
-            <td id="center">E</td>
-            <td id="center">F</td>
-            <td id="right">G</td>
+            <td class="center">D</td>
+            <td class="center">E</td>
+            <td class="center">F</td>
+            <td class="right">G</td>
         </tr>
         <tr>
-            <td id="center">H</td>
-            <td colspan="2" id="center">I</td>
-            <td rowspan="2" id="rightDown">J</td>
+            <td class="center">H</td>
+            <td colspan="2" class="center">I</td>
+            <td rowspan="2" class="rightDown">J</td>
         </tr>
         <tr>
-            <td id="center">K</td>
-            <td id="center">L</td>
-            <td id="center">M</td>
+            <td class="center">K</td>
+            <td class="center">L</td>
+            <td class="center">M</td>
         </tr>
         <tr>
-            <td id="right">N</td>
-            <td id="center" colspan="4">O</td>
+            <td class="right">N</td>
+            <td class="center" colspan="4">O</td>
         </tr>
     </table>
 </body>
