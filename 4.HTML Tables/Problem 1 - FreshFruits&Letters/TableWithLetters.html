@@ -1,28 +1,33 @@
 ﻿<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title></title>
+    <title>Table with letters</title>
     <style type="text/css">
-        table td {
+        table {
+            border-spacing: 0px 0px;
+        }
+
+        td {
+            border: 1px outset #808080;
             width: 30px;
         }
 
-            table td[class=center] {
-                text-align: center;
-            }
+        .center {
+            text-align: center;
+        }
 
-            table td[class=right] {
-                text-align: right;
-            }
+        .right {
+            text-align: right;
+        }
 
-            table td[class=rightDown] {
-                text-align: right;
-                vertical-align: bottom;
-            }
+        .rightDown {
+            text-align: right;
+            vertical-align: bottom;
+        }
     </style>
 </head>
 <body>
-    <table border="1">
+    <table>
         <tr>
             <td colspan="3">Title goes here</td>
             <td class="center">A</td>
