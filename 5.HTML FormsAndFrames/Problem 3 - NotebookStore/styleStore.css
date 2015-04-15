@@ -1,0 +1,37 @@
+﻿img {
+    width: 50px;
+    height: 50px;
+}
+
+
+#tableLinks {
+    border: 2px solid;
+    border-collapse: collapse;
+    width: 700px;
+    text-align: center;
+    font-size: 20px;
+}
+
+#links {
+    border: 2px solid;
+    border-color: black;
+    padding: 5px;
+}
+
+#laptops {
+    padding: 10px;
+}
+
+#tableLaptops {
+    border: 2px solid;
+    padding: 5px;
+}
+
+#tablePriceRam {
+    font-size: 18px;
+    border: hidden;
+}
+
+fieldset {
+    border: 2px solid black;
+}

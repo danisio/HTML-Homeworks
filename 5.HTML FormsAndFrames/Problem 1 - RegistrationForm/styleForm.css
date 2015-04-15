@@ -1,0 +1,39 @@
+﻿table {
+    border-spacing: 0px 0px;
+}
+
+label {
+    text-align: center;
+    font-weight: bold;
+}
+
+
+td {
+    width: 100px;
+    border: 1px solid #808080;
+    padding: 5px;
+}
+
+tfoot td {
+    text-align: center;
+    background-color: #87ceeb;
+}
+
+.middleText {
+    text-align: left;
+    width: 140px;
+}
+
+.largeText {
+    width: 250px;
+}
+
+.area {
+    text-align: left;
+    width: 250px;
+    height: 50px;
+}
+
+.smallText {
+    width: 60px;
+}
