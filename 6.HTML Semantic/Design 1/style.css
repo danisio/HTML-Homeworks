@@ -1,0 +1,17 @@
+﻿body {
+}
+
+table, td, tr, th {
+    border-collapse: collapse;
+    border: 1px solid black;
+    text-align: center;
+}
+
+th {
+    padding: 5px;
+}
+
+h2 {
+    display: inline;
+    padding-left: 20em;
+}
