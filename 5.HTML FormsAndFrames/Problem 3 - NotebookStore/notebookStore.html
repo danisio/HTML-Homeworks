@@ -20,7 +20,7 @@
         <tr>
             <td id="laptops">
                 <table id="tableLaptops">
-                    <tr>
+                    <tr id="bottomTable">
                         <td>
                             <fieldset>
                                 <legend>Apple MacBook Air</legend>
@@ -137,36 +137,30 @@
                 </table>
             </td>
             <td>
-                <table id="tablePriceRam">
-                    <tr>
-                        <td>Min Price:</td>
-                        <td>500 USD</td>
-                    </tr>
-                    <tr>
-                        <td colspan="2"><input type="range" min="0" max="1000" /></td>
-                    </tr>
-                    <tr>
-                        <td>Max Price</td>
-                        <td>1500 USD</td>
-                    </tr>
-                    <tr>
-                        <td colspan="2"><input type="range" min="1000" max="2000" /></td>
-                    </tr>
-                    <tr>
-                        <td>Min RAM:</td>
-                        <td>4 GB</td>
-                    </tr>
-                    <tr>
-                        <td colspan="2"><input type="range" min="0" max="8" /></td>
-                    </tr>
-                    <tr>
-                        <td>Max RAM</td>
-                        <td>8 GB</td>
-                    </tr>
-                    <tr>
-                        <td colspan="2"><input type="range" min="0" max="16" /></td>
-                    </tr>
-                </table>
+                <form method="get" action="#">
+                    <label for="min-Price">Min Price:</label>
+                    <output name="minPrice">500</output> USD<br />
+                    <input type="range" oninput="minPrice.value = this.value" id="min-Price" min="250" max="750" step="50">
+                </form>
+                <br />
+                <form method="get" action="#">
+                    <label for="max-Price">Max Price:</label>
+                    <output name="maxPrice">1500</output> USD<br />
+                    <input type="range" oninput="maxPrice.value = this.value" id="max-Price" min="750" max="2500" step="50">
+                </form>
+                <br />
+                <form method="get" action="#">
+                    <label for="min-Ram">Min RAM:</label>
+                    <output name="minRam">4</output> GB<br />
+                    <input type="range" oninput="minRam.value = this.value" id="min-Ram" min="2" max="8" step="1">
+                </form>
+                <br />
+                <form method="get" action="#">
+                    <label for="max-Ram">Min RAM:</label>
+                    <output name="maxRam">16</output> GB<br />
+                    <input type="range" oninput="maxRam.value = this.value" id="max-Ram" min="8" max="32" step="1">
+                </form>
+                <br />
             </td>
         </tr>
     </table>
